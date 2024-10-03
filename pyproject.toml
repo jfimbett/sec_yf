@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sec_yf"
+version = "0.0.0"
+description = "A package for downloading accounting and market data from SEC regulated companies."
+authors = ["Juan F. Imbet"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
