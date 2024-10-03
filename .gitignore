@@ -5,8 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+
+# sec data
 sec/
 
+# yf data
+yahoo_finance_data/
 # Distribution / packaging
 .Python
 build/
