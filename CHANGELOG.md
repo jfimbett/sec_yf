@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.2 (2024-10-29)
+
+### Bug Fixes
+
+* fix: versioning pandas ([`d7a7054`](https://github.com/jfimbett/sec_yf/commit/d7a7054acf7475777801e912131fa186c621e6b0))
+
+
 ## v0.1.1 (2024-10-29)
 
 ### Bug Fixes
