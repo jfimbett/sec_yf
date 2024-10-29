@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sec_yf"
-version = "0.0.0"
+version = "0.1.1"
 description = "A package for downloading accounting and market data from SEC regulated companies."
 authors = ["Juan F. Imbet"]
 license = "MIT"
