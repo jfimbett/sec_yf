@@ -81,5 +81,14 @@ def get_all_data(start_date='2009-01-01'):
     df.to_parquet('yahoo_finance_data/yahoo_finance_data.parquet')
 
     # save also the linking table 
-    df_link = pd.DataFrame(get_cik_to_tickers())
+    to_append = get_cik_to_tickers()
+    # we could have more than one ticker per cik, so append them
+    ciks=[]
+    tickers = []
+    for key, value in to_append.items():
+        # check the size of the set
+        tick_ = list(value)
+        ciks += [key]*len(tick_)
+        tickers += tick_
+    df_link = pd.DataFrame({'cik': ciks, 'ticker': tickers})
     df_link.to_parquet('yahoo_finance_data/cik_ticker.parquet')
