@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.3 (2024-11-08)
+
+### Bug Fixes
+
+* fix: error in appending cik tickers ([`c2612b3`](https://github.com/jfimbett/sec_yf/commit/c2612b3cef672b3274617b6ca60da4510204f338))
+
+
 ## v0.1.2 (2024-10-29)
 
 ### Bug Fixes
